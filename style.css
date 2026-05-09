@@ -251,3 +251,81 @@ input:checked + .slider:before {
   border:0px solid red;
     background-size: 50%;
 }
+@media (max-width: 768px) {
+  .Aiback {
+    display: none !important;
+  }
+
+  body {
+    padding-bottom: 70px;
+  }
+
+  .menu {
+    width: 100%;
+    min-height: 60px;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 3px solid rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+  }
+
+  .introducing {
+    width: 90vw;
+    height: auto;
+    min-height: 60vh;
+    padding: 30px 15px;
+    border-width: 4px;
+  }
+
+  .settings {
+    width: 100%;
+    gap: 25px;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  .SwitcherIn {
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .down {
+    margin-top: 30px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .colorInside {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
+
+  .colorsIns {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .coloring {
+    width: 100%;
+    height: 30px;
+  }
+
+  .onIt {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+}
