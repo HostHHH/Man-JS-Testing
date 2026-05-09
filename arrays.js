@@ -699,7 +699,7 @@ difficult = 1
 
 start()
 function CameBack() {
-  window.location.href = '../Rus/rus.html'
+  window.location.href = 'Rus/rus.html'
   
 }
 asdqaId = setInterval(() =>{
