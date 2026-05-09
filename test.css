@@ -219,3 +219,81 @@ margin:5%
 .hidden{
     display: none;
 }
+@media (max-width: 768px) {
+    .exercise {
+        width: 95vw;
+        height: auto;
+        min-height: 80vh;
+        padding: 15px;
+        margin-top: 60px;
+        justify-content: flex-start;
+    }
+
+    .backToEarth {
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .Points {
+        position: relative;
+        margin: 0;
+        width: 120px;
+        height: 35px;
+        align-self: flex-end;
+    }
+
+    .text-qust {
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 16px;
+        min-height: auto;
+    }
+
+    .variants {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        align-self: center;
+        gap: 15px;
+    }
+
+    .my-btns {
+        max-width: 100%;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    .cont {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-top: 20px;
+        align-self: center;
+        font-size: 20px;
+    }
+
+    .end {
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+        padding-bottom: 20px;
+    }
+
+    .endIn {
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .askGemini {
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        max-height: none;
+        overflow: visible;
+    }
+}
